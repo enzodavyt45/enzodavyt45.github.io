@@ -1,0 +1,138 @@
+body {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgb(207, 175, 175);
+}
+
+main {
+    text-align: center; 
+    width: 30%;
+    height: 300px;
+    background-color: rgb(216, 145, 145);
+    border-radius: 0px 0px 0px 0px;
+    margin: auto;
+    /* margin-top: 40px; */
+    border:2px solid white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
+}
+main:hover {
+    background-color: rgb(190, 80, 80);
+}
+
+main.tecnico{
+    float: left;
+}
+main.ct{
+   float: center;
+}
+main.ingles{
+    float: right;
+}
+
+img#perfil {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: right; 
+    border-radius: 10px 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+main img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 1px;
+    margin-left: 90px;   
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px;
+    width: 50%;
+    object-fit: cover;
+    display: block;
+    
+} 
+h1,h2,h3, p, a {
+    color: black;
+    font-family: sans-serif;
+}
+p {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    text-align: justify;
+}
+
+div p.email{
+    text-align: right;
+}
+
+h1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: Suisse Works;
+    font-size: 2.5rem;
+    font-weight: 30;
+    color: brown;
+    text-shadow: 0.03em 0.05em #333
+}
+
+table#tabla{
+    border-spacing: 25px 10px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+h3{
+    margin-bottom: 40px;
+    font-family: Suisse Works,Helvetica,Arial,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 30;
+    line-height: 1.3rem; 
+    letter-spacing: 0.005px;
+ 
+}
+
+div h3.encabezado{
+    text-align: left;
+}
+
+a {
+    font-size: 20px;
+}
+
+h2.subtitulo{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+    text-shadow: 0.03em 0.05em #333
+}
+
+li{
+    font-size: 20px;
+}
+
+h2{
+    margin-bottom: 35px;
+    font-family: Suisse Works,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 30;
+    line-height: 1.3rem; 
+    letter-spacing: 0.005px;
+}
+
+h3.encabezado{
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: brown;
+    text-shadow: 0.03em 0.03em #333
+}

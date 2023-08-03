@@ -1,7 +1,140 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <head> 
+        <meta charset=utf-8 />   <!-- para los tildes -->
+        <title> Portafolio Enzo Davyt</title>
+        <link href="estilos.css" rel="stylesheet" type="text/css">
+        <script src="mi_script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div>
+            <h3 class="encabezado"> Enzo Davyt Martinez</h3>
+            <p class="email"> <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxwJnPwmjCTwSPkvJVrcRKRbHftXhlGqxrQCcPvrpBkBcFLQkfRkMKjxNgQxDTFWgDwzTl"> enzodavyt@gmail.com</a> </p>
+        </div>
+        <div>
+            <hr>
+            <img id="perfil" src="FotoPerfil.jpg">
+            <h1> Estudiante de Ingeniería Eléctrica perfil Telecomunicaciones </h1>
+            <h3> Proyecto Fin de Carrera Aprobado: A5iGnator</h3>
+            <h2>Framework para la Implementación de Algoritmos de Asignación de Recursos en 5G. Investigación en la teoría de scheduling aplicada a la red 5G. Elaboración de un framework para implementar algoritmos de scheduling sobre el simulador Vienna 5G SLS.</h2>
+        </div>
+        <hr>
+        <div>
+            <h1> Actualmente cursando Jóvenes a Programar (JaP)</h1>
+            <h2> Me inscribí a JaP para tener un primer acercamiento al Desarrollo Web. El curso se estructura en tres ramas: curso técnico, competencias transversales e inglés.</h2>
+            
+        </div>
+
+        <div>
+            <main class="ingles"> 
+                <a href="https://app.voxy.com/v2/#/home">
+                    <h3>Inglés</h3>
+                    <p> El curso de inglés se realiza en la plataforma Voxy.</p>
+                    <img src="Voxy_logo.png">
+                </a>
+            </main> 
+            <main class="tecnico">
+                <a href="https://jovenesaprogramar.schoology.com/course/6775010344/materials?f=723418214">
+                    <h3>Curso técnico</h3>
+                    <p> El curso técnico de JaP abarca los temas HTML, CSS y JS.</p>
+                    <img src="lenguajes_1.png">
+                </a>
+            </main>
+            <main class="ct">
+                <a href="https://jovenesaprogramar.schoology.com/course/6775010344/materials?f=723418109">
+                    <h3>Competencias Transversales</h3>
+                    <p> Las competencias transversales acompañan el crecimiento en el curso y la vida profesional.</p>
+                    <img src="CT-Logo2.png">
+                </a>
+            </main>
+           
+        </div>
+
+        <br>
+        <br> 
+        <hr> 
+        <ul>
+            <li><a href="#ExperienciaProfesional"> Experiencia Profesional</a></li>
+            <li><a href="#HabilidadesYconocimiento"> Habilidad y Conocimiento</a></li>
+            <li><a href="#Idiomas"> Idiomas</a></li>
+            <li><a href="#PerfilesSociales"> Perfiles Sociales</a></li>
+            <li><a href="#Contactar"> Contactar</a></li>
+        </ul>
+        <hr>
+        <h2 class="subtitulo" id="ExperienciaProfesional">Experiencia Profesional</h2>
+        <table id="tabla">
+            <tr>
+                <td></td>
+                <th>Empresa / Organizacion</th>
+                <th>Cargo</th>
+                <th>Localizacion</th>
+                <th>Desde/Hasta</th>
+            </tr>
+            <tr>
+                <th></th>
+                <td>Secundaria</td>
+                <td>Profesor de Física</td>
+                <td>Conchillas (Uruguay)</td>
+                <td>Abril 2023 - Actualidad </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>Teledata</td>
+                <td>Soporte Mesa Operativa</td>
+                <td>Montevideo (Uruguay)</td>
+                <td>Enero 2021 - Junio 2021 </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>UTE-TIC</td>
+                <td>Pasante Analista Conectividad</td>
+                <td>Montevideo (Uruguay)</td>
+                <td>Junio 2019 - Diciembre 2020</td>
+            </tr>
+        </table>
+        <hr /> 
+
+        <div>
+            <h2 class="subtitulo" id="HabilidadesYconocimiento">Habilidades y conocimiento</h2>
+                <ul>
+                    <li><strong>Desarrollo web:</strong> HTML5, CSS3, JavaScript</li>
+                    <li><strong>Programación: </strong> Pascal, C, Python, Octave, MATlab</li>
+                    <li><strong>Redes:</strong> Firewalls Fortinet, Balanceadores BlueCoat, SD-Access, Controladora Wireless CISCO</li>
+                </ul>
+            <hr>
+            <h2 class="subtitulo" id="Idiomas">Idiomas</h2>
+            <ul>
+                <li><strong>Inglés:</strong> ECCE (Instituto Alianza) 2012</li>
+                <li><strong>Almán:</strong> Volkshochschule (Ombúes de Lavalle) 2011</li>
+            </ul>
+        
+        </div>
+        <hr /> 
+
+        <h2 class="subtitulo" id="PerfilesSociales">Perfiles sociales</h2>
+        <h2>También puedes encontrarme en:</h2> 
+        <ul>
+            <li><a href=""> Enzo Davyt Martinez</a></li>
+            <li><a href="https://github.com/"> Github</a></li>
+            <li><a href="https://twitter.com"> Twitter</a></li>
+            <li><a href="https://linkedin.com"> Linkedin</a></li>
+        </ul>
+        <hr>
+        <form>
+            <h2 class="subtitulo" id="Contactar">Contactar</h2>
+            <p>Para: <input type="text" name="para" required>
+                <br></br>Asunto: <input type="text" name="asunto" required></p>
+            
+            <p>Temática: <select name="tematica" id="tematica">
+                <option value="elige">-- Elige un tema --</option>
+                <option value="consulta">Consulta</option>
+                <option value="propuesta">Propuesta</option>
+                <option value="reporte">Reporte</option>
+                <option value="otro">Otro</option>
+              </select></p>
+            
+            <p>Cuerpo: <textarea name="cuerpo" id="cuerpo" cols="30" rows="10" required></textarea><input type="submit"></p>
+        </form>
+
+    </body>
 </html>
